@@ -1,0 +1,19 @@
+.squareborder {
+    height: 200px;
+    width: 200px;
+    border: 10px solid #00F;
+}
+
+.develop {
+    color: #666666;
+    font-weight: bolder;
+}
+
+.me {
+    color: #02E6B9
+}
+
+button {
+    display: inline-block;
+    margin: 5px;
+}

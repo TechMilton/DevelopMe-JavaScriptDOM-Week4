@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>To Do</title>
+    <script defer src="jsdom.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <h1 class="page-header"><span class="title">Develop</span><span class="me">Me_</span> Week 4:<br> <u>JavaScript</u>
+        in the Browers<i> with theDOM</i>
+    </h1>
+    <h4>Here are some of the exercises i completed while learning about JavaScript in the browser using the document
+        object model(DOM)</h4>
+
+
+    <!-- TO DO LIST-->
+    <div class="container">
+        <header class="page-header">
+            <h1>Simple To Do List</h1>
+        </header>
+        <main id="main" class="col-sm-offset-2 col-sm-8">
+            <form class="form-group">
+                <label for="todo">Add items bellow:</label>
+                <input id="todo" class="form-control" />
+            </form>
+            <button id="add" class=" btn btn-primary">Add</button>
+            <hr />
+            <ul class="list-group" id="list">
+            </ul>
+        </main>
+    </div>
+
+    <!-- WHAT'S THE TIME -->
+
+    <div class="container">
+        <header class="page-header">
+            <h1>What's the time?</h1>
+            <h4>Displays the time in paragraph...</h4>
+        </header>
+
+        <main class="jumbotron">
+            <h2>The time is:</h2>
+            <p id="time">??</p>
+        </main>
+    </div>
+
+    <!--MEASURE THE SIZE OF YOUR WEBPAGE-->
+    <div class="container">
+        <header class="page-header">
+            <h1>How big is your web page?</h1>
+            <h4>Try zooming in and out...</h4>
+        </header>
+        <div class="jumbotron">
+            <h2>Your web page is:</h2>
+            <p><span id="width">??</span>px &times; <span id="height">??</span>px</p>
+        </div>
+    </div>
+
+    <!--FORM VALIDATION-->
+
+    <div class="container">
+        <header class="page-header">
+            <h1>Form Validation!</h1>
+            <h4>Submitting the form with an empty field will be given a red border and a message saying "Field
+                required"... </h4>
+        </header>
+
+        <form id="form" class="col-sm-offset-2 col-sm-8">
+            <div class="form-group">
+                <label for="field-1" class="control-label">First Name:</label>
+                <input id="field-1" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="field-2" class="control-label">Last Name:</label>
+                <input id="field-2" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="field-3" class="control-label">Street:</label>
+                <input id="field-3" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="field-4" class="control-label">Town:</label>
+                <input id="field-4" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="field-5" class="control-label">Postcode:</label>
+                <input id="field-5" class="form-control" />
+            </div>
+
+            <button id="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- COUNTER -->
+    <div class="container">
+        <header class="page-header">
+            <h1>One, Two, Three</h1>
+            <h4>Press the button to Increment the number...</h4>
+        </header>
+        <div>
+            <p id="counter" class="well">0</p>
+            <button id="btn" class="btn btn-primary">Increment</button>
+        </div>
+    </div>
+
+    <!-- CLICK CHANGES BORDER COLOR-->
+    <div class="container">
+        <header class="page-header">
+            <h1>Clicking the border changes its color</h1>
+            <h4>Blue, Red, Blue, Red, Blue, Red...</h4>
+        </header>
+        <div id="squareborder" class="squareborder"></div>
+    </div>
+
+    <!--CLICK THE BUTTON AND MORE WILL APPEAR-->
+    <div class="container">
+        <header class="page-header col-md-12">
+            <h1>Clicky Buttons!</h1>
+            <h4>Clicking the button will create another button...</h4>
+        </header>
+
+        <main id="main-btn">
+            <button class="btn btn-primary">Click me!</button>
+        </main>
+    </div>
+
+
+    <!-- DISPLAY ALPHABET IN LIST A-Z -->
+    <div class="container">
+        <header class="page-header">
+            <h1>Learn your ABC</h1>
+            <h4>Used Javascript to list A - Z of the alphabet...</h4>
+        </header>
+        <ul>
+            <li id="alphabet"></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
